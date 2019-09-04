@@ -1,0 +1,24 @@
+{
+    "name": "knowband/ma2-spinandwin",
+    "description": "N/A",
+    "require": {
+        "drewm/mailchimp-api": "^2.2",
+    	"constantcontact/constantcontact": "3.0.0-alpha",
+	    "mobiledetect/mobiledetectlib": "^2.8",
+	    "geoip2/geoip2": "^2.9.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.6",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+        "Knowband\\Spinandwin\\": ""
+    }
+  }
+}
